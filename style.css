@@ -1,0 +1,124 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #e6f2ff, #ccf2ff);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 900px;
+  background: #ffffff;
+  margin: 50px auto;
+  padding: 2em;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Headings */
+h2 {
+  text-align: center;
+  color: #005b9f;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Forms */
+input, textarea, select {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 15px;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  transition: 0.3s;
+}
+input:focus, textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  background: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+button:hover {
+  background: #0056b3;
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Post List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  border: 1px solid #e0e0e0;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  background-color: #fdfdfd;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+}
+li h3 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+/* Top Nav */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+/* Search bar */
+.search-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.search-form input {
+  flex: 1;
+}
+
+/* Pagination (placeholder) */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.pagination a {
+  padding: 8px 14px;
+  margin: 0 4px;
+  background: #007bff;
+  color: white;
+  border-radius: 8px;
+}
+.pagination a:hover {
+  background: #0056b3;
+}
